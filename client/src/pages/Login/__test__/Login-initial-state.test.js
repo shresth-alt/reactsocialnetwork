@@ -78,7 +78,7 @@ describe("Tests Login form inputs update values correctly", () => {
         render(<Login />);
 
         const passwordInput = screen.getByTestId("password");
-        fireEvent.change(passwordInput, { target: { value: "shresthkh@100" } });
-        expect(passwordInput.value).toBe("shresthkh@100");
+        fireEvent.change(passwordInput, { target: { value: "Shresthkh@100" } });
+        expect(passwordInput.value).toBe("Shresthkh@100");
     });
 });
