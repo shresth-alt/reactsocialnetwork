@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 
 //Set up the port number procces.env.PORT will use the hosted port else it wil use port 3000
-const port =  3000;
+const port =  3001;
 
 //Database setUp gos here
 
