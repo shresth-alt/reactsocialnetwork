@@ -62,23 +62,23 @@ describe("Tests Login form inputs update values correctly", () => {
         render(<Login />);
 
         const usernameInput = screen.getByTestId("username");
-        fireEvent.change(usernameInput, { target: { value: "Manuel" } });
-        expect(usernameInput.value).toBe("Manuel");
+        fireEvent.change(usernameInput, { target: { value: "Shresth" } });
+        expect(usernameInput.value).toBe("Shresth");
     });
 
     it("should have updated email value after user input", () => {
         render(<Login />);
 
         const emailInput = screen.getByTestId("email");
-        fireEvent.change(emailInput, { target: { value: "manuel@gmail.com" } });
-        expect(emailInput.value).toBe("manuel@gmail.com");
+        fireEvent.change(emailInput, { target: { value: "shresthkhandelwal997@gmail.com" } });
+        expect(emailInput.value).toBe("shresthkhandelwal997@gmail.com");
     });
 
     it("should have updated password value after user input", () => {
         render(<Login />);
 
         const passwordInput = screen.getByTestId("password");
-        fireEvent.change(passwordInput, { target: { value: "12345678!?" } });
-        expect(passwordInput.value).toBe("12345678!?");
+        fireEvent.change(passwordInput, { target: { value: "shresthkh@100" } });
+        expect(passwordInput.value).toBe("shresthkh@100");
     });
 });
