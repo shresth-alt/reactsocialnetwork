@@ -61,24 +61,24 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
                         "INSERT OR REPLACE INTO Post (accountImage, accountName, postDate, postText, postImage) VALUES (?,?,?,?,?)";
 
                     db.run(insert, [
-                        "https://avatars.githubusercontent.com/u/4129325?v=4",
-                        "Manuel Pineda",
+                        "https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745",
+                        "Shresth",
                         new Date().toDateString(),
                         "First Post. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                         "https://static.vecteezy.com/system/resources/previews/012/168/187/non_2x/beautiful-sunset-on-the-beach-with-palm-tree-for-travel-and-vacation-free-photo.JPG",
                     ]);
 
                     db.run(insert, [
-                        "https://avatars.githubusercontent.com/u/4129325?v=4",
-                        "Manuel Pineda",
+                        "https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745",
+                        "Shresth",
                         new Date().toDateString(),
                         "Second Post. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                         "https://static.vecteezy.com/system/resources/previews/012/168/187/non_2x/beautiful-sunset-on-the-beach-with-palm-tree-for-travel-and-vacation-free-photo.JPG",
                     ]);
 
                     db.run(insert, [
-                        "https://avatars.githubusercontent.com/u/4129325?v=4",
-                        "Manuel Pineda",
+                        "https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745",
+                        "Shresth",
                         new Date().toDateString(),
                         "Third Post. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                         "https://static.vecteezy.com/system/resources/previews/012/168/187/non_2x/beautiful-sunset-on-the-beach-with-palm-tree-for-travel-and-vacation-free-photo.JPG",
